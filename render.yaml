@@ -1,9 +1,8 @@
 databases:
   - name: postgres
     plan: free
-    databaseName: postgres
+    databaseName: pdf_assignment_db  # ✅ Changed from 'postgres'
     
-
 services:
   - type: web
     plan: free
