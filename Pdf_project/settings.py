@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'Pdf_project.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgresql://postgres:Chari%40%23_123@localhost:5432/postgres',
+        default='postgresql://pdf_data_extractor_db_user:guUoY54CoWU5mftW8Su9uUrjY084qYqX@dpg-d2dd0aqdbo4c73bb9pgg-a.oregon-postgres.render.com/pdf_data_extractor_db',
         conn_max_age=600
     )
 }
