@@ -1,7 +1,7 @@
 databases:
   - name: postgres
     plan: free
-    databaseName: postgres # ✅ Changed from 'postgres'
+    databaseName: pdf_extractor_db # ✅ Changed from 'postgres'
     
 services:
   - type: web
