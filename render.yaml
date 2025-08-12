@@ -1,5 +1,5 @@
 databases:
-  - name: postgres
+  - name: pdf_data_extractor_db
     plan: free
     databaseName: pdf_extractor_db # ✅ Changed from 'postgres'
     
